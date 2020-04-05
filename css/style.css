@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#c-body {
+    display: none;
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 3px #444;
+}
+
+#loader {
+    position: absolute;
+    margin: auto;
+
+}
+
+#loader-gif {
+    width: 10vw;
+    position: absolute;
+    margin-left: 45vw;
+    margin-top: 45vh;
+
+
+}
+
+/*hr style*/
+
+hr.style-one {
+    overflow: visible;
+    width: 50%;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr.style-one:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+.font1 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.font2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.font3 {
+    font-family: 'Lobster', cursive;
+}
+
+/*For Computer */
+
+/*header*/
+
+/*menu button*/
+
+.fa-bars {
+    display: none;
+}
+
+header .navbar {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1em;
+    position: fixed;
+    width: 100%;
+    padding: 0 3.125%;
+    align-content: center;
+    top: 0;
+}
+
+header .navbar a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    cursor: pointer;
+}
+
+header .navbar a:hover:not(.active, #h-raj) {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+ul.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0px;
+    z-index: 2;
+}
+
+
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right
+}
+
+.navbar li.active {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+li#h-name {
+    color: white;
+    font-size: 2em;
+    display: inline;
+}
+
+#h-raj {
+    padding: 0;
+    width: auto;
+}
+
+i.fa.fa-bars {
+    float: right;
+    display: none;
+}
+
+
+
+
+
+/*jubotron*/
+
+.jumbotron {
+    padding: 0;
+}
+
+.parallax {
+    background-image: url("../img/hotel/mahal1.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.parallax2 {
+    background-image: url("../img/hotel/about-parallax.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+#center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+    color: white;
+
+}
+
+.text-box {
+    height: 600px;
+    padding: 50px;
+}
+
+
+/*JUbo dingi */
+
+.dSlides {
+    width: 100%;
+    /*    height: 85vh;*/
+    animation: fading 10s infinite;
+}
+.dslidesindex{
+    width: 80%;
+    margin: 10%;
+}
+/*content*/
+
+.condiv {
+    color: black;
+    background-color: white;
+}
+
+
+/*our menu buttons*/
+
+.fmenu {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.fmenu:hover {
+    background-color: #ccc;
+}
+
+.fmenu:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.flist {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+/*map*/
+
+#map {
+    width: 100%;
+    height: 75vh;
+    background-color: aqua;
+    filter: grayscale(50%);
+}
+
+/*footer*/
+
+.footer {
+    background-color: #2f2f2f;
+    /* Black Gray */
+    color: #fff;
+}
+
+.fdiv {
+    padding: 1vw;
+}
+
+.newli {
+    color: black;
+    width: 75%;
+    padding: 6px;
+    margin: 4px 0;
+}
+
+.newlb {
+    background-color: #4CAF50;
+    color: white;
+    width: 75%;
+    border: none;
+    padding: 6px;
+    margin: 4px 0;
+    cursor: pointer;
+
+}
+
+.newlb:hover {
+    opacity: 0.8;
+}
+
+
+
+
+/***************************************************************************************************/
+
+/*about*/
+
+div#About-content {
+    padding: 10px;
+}
+
+div.article {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.col-container {
+    display: flex;
+    margin: 10px 0;
+    background: #CCCCCC;
+}
+
+.col {
+    flex: 1;
+    padding: 16px;
+}
+
+.col2 {
+    padding: 0;
+    overflow: hidden;
+}
+
+/***************************************************************************************************/
+
+/****dining****************************************************************************************/
+div.flist{padding: 0 1vw;}
+.fcontainer {
+    position: relative;
+    padding:0;
+    margin: 0.6vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.fimg {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+.fcontainer.veg:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 128, 0, 0.25), 0 6px 20px 0 rgba(0, 128, 0, 0.25);  
+    cursor: pointer;
+}
+
+.fcontainer.nveg:hover{
+     box-shadow: 0 4px 8px 0 rgba(128, 0, 0, 0.25), 0 6px 20px 0 rgba(128, 0, 0, 0.25);  
+     cursor: pointer;
+}
+
+
+
+/****dining!**************************************************************************************
+
+/*****stay*************************************************************************************/
+div.r img {
+    opacity: 1;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+div.r{
+    display: inline-block;
+    margin: 1.5% 8.33%;
+    padding:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+div.r:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 128, 0, 0.2), 0 6px 20px 0 rgba(0, 128, 0, 0.19);   
+}
+
+div.r div{
+    width: 60%;
+    padding: 0 1%;
+    float:right;
+}
+
+
+
+
+/*****Stay!*************************************************************************************/
+
+
+
+
+/**mobile*****************************************************************************************/
+
+/*For Mobile*/
+
+@media (max-width:800px) {
+
+    .float-left,
+    .float-right {
+        float: none;
+    }
+
+    header .navbar a {
+        width: 100%;
+    }
+    i.fa.fa-bars {
+        display: inline;
+        float: right;
+        margin: 6px;
+        cursor: pointer;
+    }
+
+    .sublist {
+        display: none;
+    }
+
+    .col-container {
+        display: block;
+
+
+    }
+    .col {
+        /*        flex: 1;*/
+        /*        padding: 16px;*/
+        width: 100%;
+    }
+    .col2 {
+        float: right;
+    }
+    .col2 img {
+        width: 100%;
+    }
+
+
+
+}
+
+/***************************************************************************************************/
