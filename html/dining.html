@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Raj Mahal</title>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+    <!-- font-family: 'Amaranth', sans-serif;  -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <!-- font-family: 'Cinzel Decorative', cursive;   -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!--    font-family: 'Pacifico', cursive; font2-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
+    <!--  font-family: 'Lobster', cursive;   font3  -->
+
+
+
+
+
+
+</head>
+
+<body onload="load()">
+    <div id="loader"><img src="../img/icon/orange_circles.gif" id="loader-gif"></div>
+    <div id="c-body">
+        <header>
+
+            <ul class="navbar">
+                <li id="h-name">
+                    <span>    
+                        <b><a href="index.html" class="font1" id="h-raj">Rajmahal</a></b>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </span>
+
+                </li>
+
+                <li class="active float-left sublist"><a href="index.html">HOME</a></li>
+                <li class="float-left sublist"><a href="about.html">ABOUT US</a></li>
+                <li class="float-right sublist"><a href="Stay.html">STAY</a></li>
+                <li class="float-right sublist dropdown"><a href="dining.html">DINING</a></li>
+            </ul>
+
+
+
+        </header>
+
+
+        <div class="jumbotron">
+            <div id="djdiv">
+                <img class="dSlides" src="../img/dining/droom.jpg">
+                <img class="dSlides" src="../img/dining/Chef.jpeg">
+                <img class="dSlides" src="../img/dining/glass.jpg">
+            </div>
+
+        </div>
+        <div class="col-sm-12 text-center condiv">
+            <h3 class="font1 ">DINING</h3>
+            <hr class="style-one">
+            <p>
+                Guests looking for a luxury dining restaurant can choose between Ziya, our contemporary Indian speciality restaurant, with an innovative menu designed by the Michelin-starred Chef Vineet Bhatia, our Italian restaurant: Vetro with its attached wine library: Enoteca, our international all day dining space: Fenix, the sunlit Champagne Lounge, well stocked Patisserie & Delicatessen or chic, late night Eau Bar.
+            </p>
+            <p>
+                Our sophisticated restaurants in Mumbai each have their own distinct flavour. Guests can dine on fine Indian, Italian, Japanese sushi or pan Asian dishes, while enjoying a fine wine, a hot or cold Japanese sake, Japanese whisky, Scottish malts, a champagne cocktail or high tea.
+            </p>
+            <p>
+                Classical music is played on the spectacular red piano in our atrium, every day, and live music fills the bar six nights a week.
+            </p>
+            <p>
+                We also offer specially curated dining experiences for couples at our beautiful poolside. Those interested in cooking can opt for a private masterclass with an Oberoi chef. Please contact The Oberoi, Mumbai for more information.
+            </p>
+        </div>
+
+
+        <div class="col-sm-12 text-center condiv">
+            <h3 class="font1">Our Menu</h3>
+            <hr class="style-one">
+
+            <div class="col-sm-6 text-center " style="color:green">
+                <h4><strong class="font2">Vegetarian cuisine</strong></h4>
+            </div>
+            <div class="col-sm-6 text-center " style="color:red;">
+                <h4><strong class="font2">Non-Vegetarian cuisine</strong></h4>
+            </div>
+        </div>
+
+        <button class="fmenu">beverage</button>
+        <div class="flist">
+
+            <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/milk.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Milk</h4></center></div>
+                    <div><center>&#8377 20</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/choco%20milk.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Choco Milk</h4></center></div>
+                    <div><center>&#8377 30</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/tea.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Tea</h4></center></div>
+                    <div><center>&#8377 15</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/green%20tea.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Green Tea</h4></center></div>
+                    <div><center>&#8377 15</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/coffee.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Coffee</h4></center></div>
+                    <div><center>&#8377 20</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/Orange%20juice.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Orange Juice</h4></center></div>
+                    <div><center>&#8377 20</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/beverage/cola.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Cola</h4></center></div>
+                    <div><center>&#8377 20</center></div>
+                    
+                </div>
+             </div>
+
+
+
+
+
+        </div>
+
+        <button class="fmenu">All day Breakfast</button>
+        <div class="flist">
+            <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/Aalu-paratha.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Aalu paratha</h4></center></div>
+                    <div><center>&#8377 70</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/Chicken%20masala%20sandwich.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chicken masala sandwich</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/egg%20paratha.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Egg Paratha</h4></center></div>
+                    <div><center>&#8377 50</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/idli.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Idli</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/omelette.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Omelette</h4></center></div>
+                    <div><center>&#8377 80</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/sandwich.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Veg Sandwich</h4></center></div>
+                    <div><center>&#8377 30</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/upma.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Upma</h4></center></div>
+                    <div><center>&#8377 50</center></div>
+                    
+                </div>
+             </div>
+        </div>
+
+        <button class="fmenu">salads</button>
+        <div class="flist">
+            <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Asian%20Apple%20Slaw.jpeg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Asian Apple Slaw</h4></center></div>
+                    <div><center>&#8377 70</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Bistro%20Bacon%20Salad.jpeg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Bistro Bacon Salad</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Crab-Salad%20Cups.jpeg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Crab Salad Cups</h4></center></div>
+                    <div><center>&#8377 70</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Green%20Apple%20Salad.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Green Apple Salad</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Green%20Bean%20Salad.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Green Bean Salad</h4></center></div>
+                    <div><center>&#8377 70</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Herb%20Salad.jpeg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Herb Salad</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/salads/Quinoa%20Lentil%20Salad.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Quinoa Lentil Salad</h4></center></div>
+                    <div><center>&#8377 70</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/breakfast/Chicken%20masala%20sandwich.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chicken masala sandwich</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div>
+             </div>
+        </div>
+
+        <button class="fmenu">pizza and burgers (available from 11:30 hrs to 22:00 hrs)</button>
+        <div class="flist">
+            <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/pizza/Chicken-Exotica-Pizza.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chicken-Exotica-Pizza</h4></center></div>
+                    <div><center>&#8377 559</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/pizza/Chicken-Italiano-Pizza.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chicken Italiano Pizza</h4></center></div>
+                    <div><center>&#8377 659</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/pizza/MEXICAN-GREEN-WAVE.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Mexican Green Wave</h4></center></div>
+                    <div><center>&#8377 400</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/pizza/paneer+makhani+pizza.png" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Paneer Makhani Pizza</h4></center></div>
+                    <div><center>&#8377 500</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/pizza/veg-burger.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Veg Burger</h4></center></div>
+                    <div><center>&#8377 100</center></div>
+                    
+                </div>
+             </div>
+        </div>
+
+        <button class="fmenu">dessert</button>
+        <div class="flist">
+            <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/3Star%20Barfi.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">3 Star Barfi</h4></center></div>
+                    <div><center>&#8377 200 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/AnjeerBarfi.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Anjeer Barfi</h4></center></div>
+                    <div><center>&#8377 250 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/BadamBarfi.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Badam Barfi</h4></center></div>
+                    <div><center>&#8377 250 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/Chocolate%20Barfi.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chocolate Barfi</h4></center></div>
+                    <div><center>&#8377 200 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/GajarKaHalwa1.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Gajar Ka Halwa</h4></center></div>
+                    <div><center>&#8377 200 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/Kaju%20Katri.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Kaju Katri</h4></center></div>
+                    <div><center>&#8377 310 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/KajuRoll.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Kaju Roll</h4></center></div>
+                    <div><center>&#8377 320 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/KalaJambu1.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">KalaJam</h4></center></div>
+                    <div><center>&#8377 250 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/KesariMawaPenda.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Kesari Mawa Penda</h4></center></div>
+                    <div><center>&#8377 300 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/KesarPeda.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Kesar Peda</h4></center></div>
+                    <div><center>&#8377 280 per 250g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/RasmalaiA.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Rasmalai</h4></center></div>
+                    <div><center>&#8377 270 per 500g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/Rassgoola1.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Rassgoola</h4></center></div>
+                    <div><center>&#8377 200 per 500g</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/dessert/rajasthani-shahi-raj-kachori.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Rajasthani Shahi Raj Kachori</h4></center></div>
+                    <div><center>&#8377 100</center></div>
+                    
+                </div>
+             </div>
+        </div>
+
+        <button class="fmenu">soups</button>
+        <div class="flist">
+           <!-- 
+           <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/Baby%20Corn%20Soup.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Baby Corn Soup</h4></center></div>
+                    <div><center>&#8377 80</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/Chicken%20Mulligatawny%20Soup.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chicken Mulligatawny Soup</h4></center></div>
+                    <div><center>&#8377 100</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/Chimney%20Soup.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chimney Soup</h4></center></div>
+                    <div><center>&#8377 120</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/Ladakhi%20Chicken%20Thukpa.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Ladakhi Chicken Thukpa</h4></center></div>
+                    <div><center>&#8377 110</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/Mushroom%20Soup.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Mushroom Soup</h4></center></div>
+                    <div><center>&#8377 110</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/Thai%20Noodle%20Soup.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Thai Noodle Soup</h4></center></div>
+                    <div><center>&#8377 90</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/soups/tomato-soup.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Tomato Soup</h4></center></div>
+                    <div><center>&#8377 60</center></div>
+                    
+                </div> -->
+             </div>
+             
+             
+             
+             
+             
+            
+        </div>
+
+        <button class="fmenu">Main course</button>
+        <div class="flist">
+            <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Aloor%20Dum.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Aloor Dum</h4></center></div>
+                    <div><center>&#8377 150</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 veg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Andhra-Brinjal-Pachadi.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Andhra Brinjal Pachadi</h4></center></div>
+                    <div><center>&#8377 200</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Andhra-Chicken-Fry.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Andhra Chicken Fry</h4></center></div>
+                    <div><center>&#8377 300</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Bajra%20na%20Rotla.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Bajra na Rotla</h4></center></div>
+                    <div><center>&#8377 15 </center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Bean%20Vegetable%20Rice.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Bean Vegetable Rice</h4></center></div>
+                    <div><center>&#8377 150 </center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Bengali_Egg_Curry.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Bengali Egg Curry</h4></center></div>
+                    <div><center>&#8377 150 </center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Bhaji-Par-Eeda.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Bhaji Par Eeda.jpg</h4></center></div>
+                    <div><center>&#8377 250</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Chinese%20Chicken%20Sausage%20Rice.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Chinese Chicken Sausage Rice</h4></center></div>
+                    <div><center>&#8377 200</center></div>
+                    
+                </div>
+             </div>
+             
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Corn%20and%20Capsicum%20Pulao.JPG" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Corn and Capsicum Pulao</h4></center></div>
+                    <div><center>&#8377 260</center></div>
+                    
+                </div>
+             </div>
+             
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/fish-curry_1.jpeg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">fish curry</h4></center></div>
+                    <div><center>&#8377 600</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Fish-with-Roasted-Pepper-and-Coriander-Dressing.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Fish with Roasted Pepper & Coriander Dressing</h4></center></div>
+                    <div><center>&#8377 600</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Fried%20Rice.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Fried Rice</h4></center></div>
+                    <div><center>&#8377 200</center></div>
+                    
+                </div>
+             </div>
+             
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Nut-Crusted-Rawas-with-Lemon-Butter-Sauce.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Nut Crusted Rawas with Lemon Butter Sauce</h4></center></div>
+                    <div><center>&#8377 350</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Paneer-Missi-Roti.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Paneer Missi Roti</h4></center></div>
+                    <div><center>&#8377 35</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Patio.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Patio</h4></center></div>
+                    <div><center>&#8377 450</center></div>
+                    
+                </div>
+             </div>
+             
+             
+              <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Peethiwali-Puri-with-Aloo-Chana.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Peethiwali Puri with Aloo Chana</h4></center></div>
+                    <div><center>&#8377 100</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/royal%20veg%20thali.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Royal Veg Thali</h4></center></div>
+                    <div><center>&#8377 600</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Tawa-Pomfret.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Tawa Pomfret</h4></center></div>
+                    <div><center>&#8377 500</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Tofu%20Paratha.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Tofu Paratha</h4></center></div>
+                    <div><center>&#8377 20</center></div>
+                    
+                </div>
+             </div>
+             
+             <div class="fcontainer col-sm-4 nveg" style="width:30.66vw;float:left;">
+                <img src="../img/food/main/Tofu-and-White-Beans-Chilli.jpg" class="fimg" style="width:100%">
+                <div class="ftext">
+                    <div><center><h4 class="font2">Tofu & White Beans Chilli</h4></center></div>
+                    <div><center>&#8377 250</center></div>
+                    
+                </div>
+             </div>
+             
+             
+             
+             
+             
+             
+             
+             
+             
+        </div>
+
+
+
+
+
+        <!--footer-->
+
+        <footer class="container-fluid footer">
+            <div class="col-sm-4 text-center fdiv">
+                <h4>WHO WE ARE</h4>
+                <p>
+                    Raj Mahal Hotels is one of Asia's largest and finest group of hotels, comprising 98 hotels in 61 locations across the globe, including presence in India, North America, United Kingdom, Africa, Middle East, Malaysia, Sri Lanka, Maldives, Bhutan and Nepal. From world-renowned landmarks to modern business hotels, idyllic beach resorts to authentic Grand Palaces, each Raj Mahal hotel offers an unrivalled fusion of warm Indian hospitality, world-class service and modern luxury.
+                </p>
+            </div>
+            <div class="col-sm-4 text-center fdiv">
+                <h4>CONTACT INFO</h4>
+                <span>Toll free:<a href="tell:888-8888-888">888-888-8888</a></span><br>
+                <span>Phone:<a href="tell:542-8546-751">542-854-6751</a></span><br>
+                <span>Email:<a href="mailto:hotelrajmahal@gmail.com">hotelrajmahal@gmail.com</a></span>
+
+            </div>
+            <div class="col-sm-4 text-center fdiv">
+                <h4>Subscribe to our Newsletter</h4>
+
+                <input type="text" placeholder="Name" name="name" class="newli" required><br>
+                <input type="text" placeholder="Email address" name="mail" class="newli" required><br>
+                <input type="submit" value="Subscribe" class="newlb" onclick="SubMess()">
+            </div>
+            <div class="col-sm-12 text-center">&copy; 2018 Hotel Rajmahal.All rights reserved.</div>
+        </footer>
+    </div>
+
+
+
+    <!--==============------------====================-------------===============--------------->
+
+
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>
